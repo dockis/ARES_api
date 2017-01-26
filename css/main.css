@@ -1,0 +1,39 @@
+body {
+    font-family: Segoe UI, verdana, arial, helvetica, sans-serif;
+    font-size: 14px;
+}    
+hr.cleaner {
+    clear:both;
+    margin: -1px 0 0 0; padding:0;
+    height:1px;
+    border:none;
+    visibility: hidden;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+fieldset {
+    float: left;
+}
+#content {
+    margin-top: 15px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+th span {
+    color: red;
+}
